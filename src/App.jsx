@@ -1,5 +1,6 @@
 import './App.css'
 import CateringService from './components/CateringService/CateringService'
+import MainConnect from './components/Connect/MainConnect'
 import Gallery from './components/Gallery/Gallery'
 import MarriageService from './components/MarriageService/MarriageService'
 import Card from './components/service/Card'
@@ -16,8 +17,8 @@ function App() {
     <Gallery/>
 
     <CateringService/> */}
-    <MarriageService/>
-
+    {/* <MarriageService/> */}
+      <MainConnect/>
     </>
   )
 }
