@@ -11,11 +11,11 @@ function App() {
   return (
     <>
     
-     <Service/>
+     {/* <Service/>
     <CardGrid/>
     <Gallery/>
 
-    <CateringService/>
+    <CateringService/> */}
     <MarriageService/>
 
     </>
