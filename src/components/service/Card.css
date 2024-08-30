@@ -10,14 +10,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  margin: 0 auto;
 }
 .card-grid .card {
-  width: 480px;
-  position: relative;
+  text-align: center;
 }
 .card-grid .card p {
-  width: 473px;
-  position: absolute;
+  text-align: center;
 }
 .card-grid .card img {
   width: 100%;
@@ -92,9 +91,26 @@
     position: absolute;
   }
   .card-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 170px);
-    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .card-grid {
+    margin: 20px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card p {
+    position: absolute;
+    top: 40%;
+    left: 2px;
+    bottom: 50%;
+    width: 100%;
+    padding: 0 20px;
+    color: white;
+    text-align: center;
+    font-size: .7em;
+    font-weight: bold;
+    font-family: "", Times, serif;
   }
 }
 
