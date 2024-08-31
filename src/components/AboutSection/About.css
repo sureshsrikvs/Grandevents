@@ -6,6 +6,16 @@
 .about .container {
   width: 100%;
   margin: 0 auto;
+  position: relative;
+}
+.about .container .top-left{
+  width: 380px;
+  position: absolute;
+  left: 0px;
+  z-index: -10;
+}
+.about .container .top-left img{
+  width: 100%;
 }
 .about .container .hero{
   text-align: center;
@@ -24,19 +34,19 @@
 }
 
 .about .container .heading {
-  max-width: 100%;
+  flex-direction: column;
   margin: 0 auto;
-  height: 200px;
+  height: 300px;
   text-align: center;
   font-family: "Outfit";
-  background-image: url(../assets/design.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  /* background-image: url(../assets/design.png); */
+  /* background-repeat: no-repeat;
+  background-size: 40%; */
 }
 .container .heading h1 {
   font-size: 48px;
   color: #000;
-  padding-top: 60px;
+  
 }
 .container .heading h2 {
   font-size: 40px;
@@ -64,7 +74,7 @@
   width: 341px;
   position: absolute;
   left: 25%;
-  bottom: 0;
+  bottom: -6.5px;
 }
 .container .about-serve .bala-img img {
   width: 100%;
