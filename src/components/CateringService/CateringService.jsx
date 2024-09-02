@@ -10,9 +10,9 @@ const CateringService = () => {
     <>
       <div className="cateringservice">
          
-          <Heading/>
-          <Corporate/>
-          <CateringTypes/>
+          {/* <Heading/>
+          <Corporate/> */}
+          {/* <CateringTypes/> */}
           <Types/>
           <Assurance/>
           

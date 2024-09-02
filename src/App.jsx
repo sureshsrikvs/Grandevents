@@ -1,5 +1,7 @@
 import './App.css'
 import About from './components/AboutSection/About'
+import Testimonial from './components/Admin/Testimonial'
+import TestimonialApprove from './components/Admin/TestimonialApprove'
 import CateringService from './components/CateringService/CateringService'
 import MainConnect from './components/Connect/MainConnect'
 import Gallery from './components/Gallery/Gallery'
@@ -14,14 +16,16 @@ function App() {
   return (
     <>
     {/* <About/> */}
-     {/* <Service/>
-    <CardGrid/>
-    <Gallery/>
+     {/* <Service/> */}
+    {/* <CardG"rid/> */}
+    {/* <Gallery/> */}
 
-    <CateringService/>
-    <MarriageService/>
-      <MainConnect/> */}
-      <Menuview/>
+    {/* <CateringService/> */}
+    {/* <MarriageService/> */}
+      {/* <MainConnect/>
+      <Menuview/> */}
+      <Testimonial/>
+      <TestimonialApprove/>
     </>
   )
 }

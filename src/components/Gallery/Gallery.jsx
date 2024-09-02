@@ -27,8 +27,8 @@ const images = [
 const Gallery = () => {
   return (
     <>
-      <div className="gallery">
-        <div className="hero">
+      <div className="Gallerypart">
+        <div className="galleryhero">
           <h1>Gallery</h1>
         </div>
         <div className="gallery-container">

@@ -9,8 +9,8 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <div className="container">
-          <div className="hero">
+        <div className="aboutcontainer">
+          <div className="abthero">
             <h1>ABOUT US</h1>
           </div>
 
@@ -18,7 +18,7 @@ const About = () => {
             <img src={lefttop} alt="" />   
           </div>
 
-          <div className="heading">
+          <div className="abtheading">
             <h1>Best Caterers in Chennai</h1>
             <h2>Grand Events A to Z Marriage Catering Services</h2>
           </div>
